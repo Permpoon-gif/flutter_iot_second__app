@@ -12,23 +12,23 @@ class HomeUi extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(
-              height: 150.0,
+              height: 20.0,
             ),
             ClipRRect(
               borderRadius: BorderRadius.circular(20.0),
               child: Image.asset(
-              'asstes/images/logo.png',
-              width: 100.0,
-              height: 150.0,
+              'assets/images/Download.mp4',
+              width: 300.0,
+              height: 300.0,
               fit: BoxFit.cover,
               ),
               
             ),
             SizedBox(
-              height: 180.0,
+              height: 20.0,
             ),
             Text(
-              'สวัสดีชาวโลก',
+              'เหงาครับอยากหาคนคุย',
               style: TextStyle(
                 fontSize:  28.0,
                 fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class HomeUi extends StatelessWidget {
               ),
                ),
              Text(
-              'Created by NinniN IoT -SAU 2026',
+              'Created by Permpoon',
               style: TextStyle(
                 fontSize:  18.0,
                 color: Colors.grey[800],

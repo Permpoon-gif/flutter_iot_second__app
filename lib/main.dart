@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_iot_second__app/views/%E0%B9%89home_ui.dart';
 
+ import 'package:google_fonts/google_fonts.dart';
  
 
 void main(){
@@ -28,8 +29,11 @@ class _FlutterIoTSeconAppState extends State<FlutterIoTSeconApp> {
       home: HomeUi(),
 
       theme: ThemeData(
-        textTheme: GoogleFonts.kanifTetTheme(),
-            heheheh
+        textTheme: GoogleFonts.kanitTextTheme(
+          Theme.of(context).textTheme,
+        ),
+          
+          
       ),
     );      
   }
