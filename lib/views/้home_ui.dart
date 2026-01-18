@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomeUi extends StatelessWidget {
@@ -17,7 +16,7 @@ class HomeUi extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(20.0),
               child: Image.asset(
-              'assets/images/Download.mp4',
+              'assets/images/logo.png', 
               width: 300.0,
               height: 300.0,
               fit: BoxFit.cover,
@@ -28,42 +27,49 @@ class HomeUi extends StatelessWidget {
               height: 20.0,
             ),
             Text(
-              'เหงาครับอยากหาคนคุย',
+              'Bulid Awesome Apps',
               style: TextStyle(
                 fontSize:  28.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.grey[800],
               ),
             ),
-             Text(
-              ' Southeast Asia University',
+            Text(
+              'Southeast Asia University',
               style: TextStyle(
                 fontSize:  18.0,
                 color: Colors.grey[800],
               ),
               ),
-             Text(
+            Text(
               'Created by Permpoon',
               style: TextStyle(
                 fontSize:  18.0,
                 color: Colors.grey[800],
               ),
-             ),
-             SizedBox(
+            ),
+            SizedBox(
               height: 50.0,
-             ),
-             Row(
+            ),
+            Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 OutlinedButton(
                   onPressed: () {},
-                  style: OutlinedButton.styleFrom(),
+                  style: OutlinedButton.styleFrom(
+                    fixedSize: Size(
+                      150.0,
+                      50.0,
+                    ),
+                  ),
                   child: Text(
                     'LOGIN'
                   ),
+                  
+                  
                 ),
                 SizedBox(
-                  width:  20.0,
+                  width:  50.0,
                 ),
                 ElevatedButton(
                   onPressed: () {},
@@ -85,7 +91,7 @@ class HomeUi extends StatelessWidget {
                   ),
                   ),
               ],
-             )
+            ),
 
           ],
         ),
