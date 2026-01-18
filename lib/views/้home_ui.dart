@@ -41,7 +41,7 @@ class HomeUi extends StatelessWidget {
                 fontSize:  18.0,
                 color: Colors.grey[800],
               ),
-               ),
+              ),
              Text(
               'Created by Permpoon',
               style: TextStyle(
@@ -57,22 +57,16 @@ class HomeUi extends StatelessWidget {
               children: [
                 OutlinedButton(
                   onPressed: () {},
+                  style: OutlinedButton.styleFrom(),
                   child: Text(
                     'LOGIN'
                   ),
-                  style: OutlinedButton.styleFrom(),
                 ),
                 SizedBox(
                   width:  20.0,
                 ),
                 ElevatedButton(
                   onPressed: () {},
-                  child: Text(
-                    'SIGNUP',
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
-                  ),
                   style: ElevatedButton.styleFrom(
                   fixedSize: Size(
                     150.0,
@@ -82,6 +76,12 @@ class HomeUi extends StatelessWidget {
                     borderRadius: BorderRadius.circular(8.0),
                   ),
                   backgroundColor: Colors.black,
+                  ),
+                  child: Text(
+                    'SIGNUP',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
                   ),
                   ),
               ],
