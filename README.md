@@ -1,16 +1,9 @@
-# flutter_iot_second__app
+# Mobile Application with Flutter&Dart
 
-A new Flutter project.
+## UI Onl for HomeUi, SigniUi, SignupUi
 
-## Getting Started
+<img width="1290" height="2796" alt="localhost_64356_(iPhone 14 Pro Max) (2)" src="https://github.com/user-attachments/assets/a4492141-c6ca-4a39-b090-6ead495d5a0d" />
 
-This project is a starting point for a Flutter application.
+<img width="1290" height="2796" alt="localhost_64356_(iPhone 14 Pro Max) (1)" src="https://github.com/user-attachments/assets/a1821b46-28a0-453d-a217-4a6c49990546" />
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="1290" height="2796" alt="localhost_64356_(iPhone 14 Pro Max) (2)" src="https://github.com/user-attachments/assets/028028a7-bf09-4ead-8ba9-c4678cea0fa7" />
